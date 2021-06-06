@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick y Morty</title>
+    <link rel="stylesheet" href="Estilos/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!--Buscador-->
+    <div class="contenedor">
+        <header class="header">
+            <input type="text" id="buscador" class="buscador" placeholder="Buscar Personaje">
+            <button id="btn-buscar" class="btn-buscar"><i class="fas fa-search"></i></button>
+        </header>
+
+        <!--Jugadores Favoritos-->
+        <div class="personajes">
+            <div class="pj-header">
+                <img src="http://assets.stickpng.com/images/58f37720a4fa116215a9240f.png" alt="logo" id="logo">
+                <select name="episodio" id="episodio">
+                <option value="elige">Episodio...</option>
+                </select>
+                <button id="btn-episodio"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="contenedor-pj" id="contenedor-pj">
+            </div>
+
+
+        </div>
+    </div>
+    <script src="Js/codigo.js"></script>
+</body>
+
+</html>

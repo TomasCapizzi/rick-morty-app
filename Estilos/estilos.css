@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:wght@100;200;300&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #51ec70 0%, #8afff7 100%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+#logo {
+    width: 15rem;
+}
+
+.contenedor {
+    width: 90%;
+    border-radius: 3px;
+    overflow: hidden;
+    color: #fff;
+}
+
+.buscador {
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-buscar {
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.pj-header {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+.pj-header select {
+    height: 2rem;
+    width: 6rem;
+    margin: 0 20px;
+    border: none;
+    border-radius: 12px;
+}
+
+.contenedor-pj {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pj {
+    margin: 0 20px 20px;
+    background-color: #51ec70;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    width: 16rem;
+    height: 24rem;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.pj img {
+    overflow: hidden;
+}
+
+.pj .descripcion {
+    width: 100%;
+}
+
+.pj:hover {
+    background-color: #3dd85c;
+}
+
+.pj h3 {
+    margin: 0 10px 5px;
+    font-weight: bold;
+}
+
+.pj p {
+    margin: 10px 5px;
+    color: black;
+}
+
+button:hover {
+    color: #317A82;
+}
+
+.pj .modal {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: 800;
+    background-color: #7B868E;
+    color: #51ec70;
+    padding: 5px;
+}
+
+.modal .status {
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.modal .locacion {
+    display: flex;
+}
+
+.modal h3 {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.modal p {
+    color: #58D7DF;
+}
+
+.rojo {
+    color: red;
+}
+
+.verde {
+    color: green;
+}
+
+.amarillo {
+    color: yellow;
+}
